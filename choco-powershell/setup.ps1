@@ -58,7 +58,7 @@ $Apps = @(
     # Media players and production
     "vlc",
     #"kdenlive", # Supports standalone 
-    "obs-studio",
+    # "obs-studio",
     
     # Network & Debugging
     "fiddler",
@@ -69,7 +69,7 @@ $Apps = @(
     "wireshark",
 
     #office
-    "powerbi",
+    # "powerbi",
 
     #Scriptings
     "powershell-core",
@@ -95,9 +95,9 @@ $devTools = @(
     #Version control    
     "git",
     #.Net
-    "dotnetcore-sdk",
-    "dotpeek",
-    "debugdiagnostic",
+    # "dotnetcore-sdk",
+    # "dotpeek",
+    # "debugdiagnostic",
     #Uncomment below line for service fabric
     #"service-fabric-explorer",
     #NodeJS
@@ -105,9 +105,9 @@ $devTools = @(
     #Python
     "python3",
     #Database
-    "ssms",
+    # "ssms",
     # hosting on cloud
-    "azure-cli",
+    # "azure-cli",
     # Diagramming
     "graphviz"
 )
@@ -117,10 +117,7 @@ foreach ($devTool in $devTools) {
 
 ###### -> Install VS Code Extensions #######
 $vsCodeExtensions = @(
-    "jebbs.plantuml",
     "evilz.vscode-reveal",
-    "streetsidesoftware.code-spell-checker",
-    "ms-azuretools.vscode-docker"
 )
 Write-Host "Installing VS Code extensions"
 $vsCodeExtensions | ForEach-Object { code --install-extension $_}
@@ -129,7 +126,7 @@ Write-Host "Installed dev tools" -Foreground green
 ######## <- DEV TOOLS CONFIGURATION ########
 
 #### -> PERSONALIZE ####
-git config --global user.email "joymon@gmail.com"
-git config --global user.name "Joy George Kunjikkuru"
+git config --global user.email "pjessey@somone.fr"
+git config --global user.name "Pascal de Jessey"
 
 #### <- PERSONALIZE ####
