@@ -3,7 +3,7 @@
 
 # How to run
 
-One click Web URL - Click [here to install using Boxstarter](http://boxstarter.org/package/url?https://raw.githubusercontent.com/joymon/win10-dev-box-setup/master/choco-powershell/setup.ps1)
+One click Web URL - Click [here to install using Boxstarter](http://boxstarter.org/package/url?https://raw.githubusercontent.com/pjessey/win10-dev-box-setup/master/choco-powershell/setup.ps1)
 
 Requires admin access
 
